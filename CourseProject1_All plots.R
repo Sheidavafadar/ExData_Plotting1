@@ -23,7 +23,7 @@ dev.off()
 
 ## plot3===============================
 with(PlotData, {plot(setTime ,Sub_metering_1, type="l",
-                     ylab = "Global Active Power(KW)", xlab="")
+                     ylab = "Energy sub metering", xlab="")
         lines(setTime, Sub_metering_2, col="red")
         lines(setTime, Sub_metering_3, col="blue")
 })
